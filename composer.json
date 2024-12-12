@@ -24,8 +24,7 @@
     "scripts": {
         "post-create-project-cmd": [
             "./vendor/bin/tempest install console -f",
-            "./tempest discovery:generate",
-            "rm -r .github"
+            "./tempest discovery:generate"
         ],
         "post-update-cmd": [
             "./tempest discovery:generate"
