@@ -1,5 +1,6 @@
 {
     "name": "tempest/app-console",
+    "type": "project",
     "require": {
         "php": "^8.4",
         "tempest/console": "dev-main"
